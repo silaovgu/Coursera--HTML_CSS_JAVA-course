@@ -163,8 +163,6 @@ p {
   }
   .col-md-12 {
     width: 100%;
-    margin:auto;
-    clear:left;
   }
 }
 /********** Small devices only **********/
@@ -208,6 +206,5 @@ p {
   }
   .col-sm-12 {
     width: 100%;
-    margin:auto;
   }
 }
