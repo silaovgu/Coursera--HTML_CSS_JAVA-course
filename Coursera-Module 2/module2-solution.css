@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 h1 {
-   margin-bottom: 15px;
+   margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
   font-size:175%;
-  font-family: Helvetica;
+  font-family: Comic Sans;
   font-weight: bold;
 }
 p {
@@ -56,7 +57,6 @@ p {
   font-weight: bold;
 }
 #p3 {
-  /*background-color: #5F9EA0;*/
   background-color: yellow;
   float: right;
   width: 20%;
@@ -75,8 +75,6 @@ p {
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  height:100%;
-  background-color: :gray;
 }
 
 /********** Large devices only **********/
