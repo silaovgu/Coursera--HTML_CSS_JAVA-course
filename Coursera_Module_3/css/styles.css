@@ -1,3 +1,4 @@
+
 body {
   font-size: 16px;
   color: #fff;
@@ -32,7 +33,7 @@ h2 { /* Our Menu */
   font-size: 1.5em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 30px;
+  margin-top: 60px
   margin-bottom: 50px;
   line-height: .75;
 }
@@ -44,7 +45,7 @@ h2 { /* Our Menu */
   margin-top: 10px;
 }
 #nav-list a {
-  color: #424949;
+background-color: #f6b319;
   text-align: center;
 }
 #nav-list a:hover {
@@ -84,52 +85,24 @@ p {
   font-weight: bold;
 }
 
-#p1 {
-  background-color: pink;
-  float: right;
-  width: 80px;
-  padding:1px;
-  height: 30px;
-  margin-right: 0;
+.p1{
+  font-family: 'Comic Neue', cursive;
+font-size: 1.2em;
+  color: #f6b319;
   margin-top: 0;
   position: absolute;
-  right: 0;
-  top: 0;
-  border: 1.5px solid black;
   text-align: center;
-  font-weight: bold;
-}
-#p2 {
-  background-color: red;
-  float: right;
-  width: 80px;
-  height: 30px;
-  margin-right: 0;
-  margin-top: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  border: 1.5px solid black;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
-#p3 {
-  /*background-color: #5F9EA0;*/
-  background-color: yellow;
-  float: right;
-  width: 80px;
-  height: 30px;
-  margin-right: 0;
-  margin-top: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  border: 1.5px solid black;
-  text-align: center;
-  font-weight: bold;
+  left: 45%;
+   top: 0;
 }
 
+.container1 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
 /*#back-to-top{
   display: none;
   position: fixed;
@@ -158,12 +131,41 @@ p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+   color:   #f6b319;
+  text-align: center;
+}
+#nav-list a:hover {
+  background:  #f6b319;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+   color:   #f6b319;
+  text-align: center;
+}
+#nav-list a:hover {
+  background:  #f6b319;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
 
   /* End Header */
 
@@ -175,7 +177,19 @@ p {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+   color:   #f6b319;
+  text-align: center;
+}
+#nav-list a:hover {
+  background:  #f6b319;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
   /* End Home Page */
 
 }
